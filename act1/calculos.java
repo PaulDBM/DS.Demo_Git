@@ -17,10 +17,6 @@ public class Operation {
             return x * y;
         } else if (opt == '/') {
             return x / y;
-        } else if (opt == '%') {
-            return x % y;
-        } else if (opt == '^') {
-            return Math.pow(x, y);
         }
         
         return y;
